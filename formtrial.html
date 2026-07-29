@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:0;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .banner {
+            background-color: rgb(47, 96, 160);
+            padding: 30px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .gender, .career {
+            margin-bottom: 15px;
+        }
+         button {
+            width: 100%;
+            padding: 12px;
+            background-color: #313840;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #d2d4d7;
+        }
+        .gender span, 
+        .career span {
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <form>
+            <label>F_Name</label>
+            <input type="text" id="fname">
+
+            <label>L_Name:</label>
+            <input type="text" id="lname">
+
+            <label>Email:</label>
+            <input type="text" id="email">
+
+            <label>Password:</label>
+            <input type="password" id="password">
+
+    
+            <div class="gender">
+                <label>Gender:</label>
+                <input type="radio" id="male"> <span>M</span>
+                <input type="radio" id="female"> <span>F</span>
+            </div>
+            <label>Contact:</label>
+            <input type="text" id="contact">
+            <div class="career">
+                <label>Career</label>
+                <input type="checkbox"><span>B.Tech</span>
+                <input type="checkbox"><span>MCA</span>
+                <input type="checkbox"><span>M.sc</span>
+
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
