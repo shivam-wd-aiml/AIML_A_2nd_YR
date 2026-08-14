@@ -7,6 +7,15 @@ function detail(name,id,branch,dep){
 function percent(maths,english,science){
     return ((maths+science+english)/300)*100;
 }
+function sumarr(arr){
+    let s=0;
+    for(let i=0;i<arr.length();i++){
+        s+=arr[i];
+    }
+    return s;
+}
+let arr=[10,20,30,40,50];
 console.log(checkNumber(23));
 detail("Kaalu",234,"CS","AIML");
 console.log(percent(80,75,90));
+console.log(sumarr(arr));
