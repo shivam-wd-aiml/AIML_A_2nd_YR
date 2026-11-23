@@ -1,0 +1,21 @@
+{
+  "name": "wd3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam-wd-aiml/AIML_A_2nd_YR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shivam-wd-aiml/AIML_A_2nd_YR/issues"
+  },
+  "homepage": "https://github.com/shivam-wd-aiml/AIML_A_2nd_YR#readme"
+}
